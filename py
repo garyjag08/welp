@@ -4,3 +4,21 @@ Array  [sets, lists, tuples, dictionary] //(strlen, push, pop, add to string, de
       thislist = ["apple", "banana", "cherry"]
        thislist[1] = "blackcurrant"
       print(thislist)
+
+#tuples
+thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
+print(thistuple) 
+
+#sets
+thisset = {"apple", "banana", "cherry"}
+
+thisset.add("orange")
+
+print(thisset)                  #will add orange after cherry
+
+
+#numpy example
+        # Std Dev. (std dev p in excel)
+a =[0,1,2]
+b= np.std(a)
+print (b)  #end std numpy array
