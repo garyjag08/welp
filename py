@@ -22,3 +22,6 @@ print(thisset)                  #will add orange after cherry
 a =[0,1,2]
 b= np.std(a)
 print (b)  #end std numpy array
+
+#mean in numpy
+np.mean(a) // puts out the mean
