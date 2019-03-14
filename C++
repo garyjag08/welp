@@ -1,0 +1,16 @@
+C++ coding
+/////Objects
+
+class gurpclass{
+public:
+    void saying(){
+    cout<<"saying goes here"<<endl;
+    }
+};
+
+int main{
+gurpclass gurpobject;
+gurpobject.saying;
+//will display the code and perform what is coded in the class coding
+return 0;
+}
