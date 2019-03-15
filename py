@@ -16,6 +16,13 @@ thisset.add("orange")
 
 print(thisset)                  #will add orange after cherry
 
+#python class
+class user:
+    pass
+user1=user()
+user1.firstname= input ("enter first name")
+print (user1.firstname)
+
 
 #numpy example
         # Std Dev. (std dev p in excel)
