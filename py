@@ -32,3 +32,10 @@ print (b)  #end std numpy array
 
 #mean in numpy
 np.mean(a) // puts out the mean
+
+a.range (0,10) -> prints out 0-9 numbers
+
+
+                                            #Pandas
+s = pd.Series([1,2,3])
+(online book stopped on page 71)
