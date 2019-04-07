@@ -9,7 +9,49 @@ document.write (security) // will write out the content of the array
 )
 
 
+// nodes and appending and stuff
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function myFunctionz() {
+ var x = document.getElementById("myList").childNodes;
 
+ var c = document.getElementById("myList").childElementCount;
+  document.getElementById("demo").innerHTML = c;
+     
+
+ for (i=0; i<=c; i++) {
+ var txt = "";
+ txt += "The node value\'s is: " + x[1].nodeValue + "<br>";
+ 
+  document.getElementById("yee").innerHTML = txt;
+	}
+}
+
+</script> 
+
+<ul id="myList">
+  <li id="li1"><input type="text" placeholder="enter number"> </input></li>
+   <li id="li2"><input type="text" placeholder="enter number"> </input></li>
+</ul>
+
+<p>Click the button to append an item to the end of the list.</p>
+<p id="demo">	</p>
+<p id="yee">	</p>
+<button onclick="myFunction(); myFunctionz()">Try it</button>
+
+<script>
+function myFunction() {
+  var node = document.createElement("LI");
+  var textnode = document.createElement("Input");
+  node.appendChild(textnode);
+  document.getElementById("myList").appendChild(node);
+}
+</script>
+
+</body>
+</html>
 
 
 
