@@ -13,42 +13,63 @@ document.write (security) // will write out the content of the array
 <!DOCTYPE html>
 <html>
 <body>
-<script>
+	<script>
+		function myFunction() {
+
+  		var node = document.createElement("LI");
+ 		 	var textnode = document.createElement("Input");	
+ 				 node.appendChild(textnode);
+				 
+  	document.getElementById("myList").appendChild(node);  
+  	var myNodelist = document.querySelectorAll("input");
+
+var i;
+	for (i = 0; i < myNodelist.length; i++) {
+  		myNodelist[i].style.backgroundColor = "#69f";
+			}
+  		} 
+		
 function myFunctionz() {
- var x = document.getElementById("myList").childNodes;
-
  var c = document.getElementById("myList").childElementCount;
-  document.getElementById("demo").innerHTML = c;
-     
 
- for (i=0; i<=c; i++) {
+  	document.getElementById("demo").innerHTML = c;
+var cless = c -1 ;
+ for (q=0; q<cless; q++){
+     	
+        var zero = 0;
+        var x = parseFloat(document.getElementById("myList").childNodes.nodeValue);
+        	document.getElementById("yeee").innerHTML = (zero += x[q]);
+     }
+
+ for (i=0; i<=cless; i++) {
+
+ var z = parseFloat(document.getElementById("myList").childNodes.nodeValue);
  var txt = "";
- txt += "The node value\'s is: " + x[1].nodeValue + "<br>";
+
+ txt += "The node\'s value is: " + z[i] + "<br>";
  
-  document.getElementById("yee").innerHTML = txt;
+ 	 document.getElementById("yee").innerHTML = txt;
+
 	}
+
 }
 
 </script> 
 
 <ul id="myList">
+
   <li id="li1"><input type="text" placeholder="enter number"> </input></li>
+
    <li id="li2"><input type="text" placeholder="enter number"> </input></li>
+
 </ul>
-
 <p>Click the button to append an item to the end of the list.</p>
-<p id="demo">	</p>
-<p id="yee">	</p>
-<button onclick="myFunction(); myFunctionz()">Try it</button>
+	<p id="demo">	</p>
 
-<script>
-function myFunction() {
-  var node = document.createElement("LI");
-  var textnode = document.createElement("Input");
-  node.appendChild(textnode);
-  document.getElementById("myList").appendChild(node);
-}
-</script>
+	<p id="yee">	</p>
+	<p id="yeee">	</p>
+
+		<button onclick="myFunction(); myFunctionz()">Try it</button>
 
 </body>
 </html>
