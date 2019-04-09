@@ -39,3 +39,10 @@ a.range (0,10) -> prints out 0-9 numbers
                                             #Pandas
 s = pd.Series([1,2,3])
 (online book stopped on page 71)
+
+
+//showing plot          #showing plot
+x=[1,2,3]
+y=[1,4,9]
+plt.plot(x,y)
+plt.show()
