@@ -16,6 +16,11 @@ thisset.add("orange")
 
 print(thisset)                  #will add orange after cherry
 
+#python def
+def panchode():
+    print ("whatever the hell")
+#to call function, panchode()
+
 #python class
 class user:
     pass
