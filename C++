@@ -1,6 +1,5 @@
 C++ coding
 /////Objects
-
 class gurpclass{
 public:
     void saying(){
@@ -14,3 +13,4 @@ gurpobject.saying;
 //will display the code and perform what is coded in the class coding
 return 0;
 }
+// end objects
