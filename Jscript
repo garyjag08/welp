@@ -54,6 +54,17 @@ var cless = c -1 ;
 
 }
 
+// classes
+class user{
+constructor (email, name){
+
+this.email = email;
+this.name = name;
+document.write (this.email + ", "+ this.name + '<br>');
+	}  //end constructor bracket
+
+} //end user class brakcet 
+var patron = new user ('adsf@gmail.com', 'Gary');
 </script> 
 
 <ul id="myList">
