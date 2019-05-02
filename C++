@@ -14,3 +14,11 @@ gurpobject.saying;
 return 0;
 }
 // end objects
+
+//calling function
+int mult (int a, intb){
+    cout<<a*b<<endl;
+}
+int main{
+(cin both a and b) and then, int result = mult(a,b);  (result=mult is what calls out the class mult)
+
