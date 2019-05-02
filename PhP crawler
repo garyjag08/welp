@@ -12,3 +12,10 @@ familyName("Hege", "1975");
 familyName("Stale", "1978");
 familyName("Kai Jim", "1983");
 ?>
+
+    //Average in PhP
+$a = [2,3,4];
+$size = sizeof($a);
+$asum= array_sum($a);
+echo $asum/$size; //will output the average
+
