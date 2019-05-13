@@ -51,3 +51,20 @@ x=[1,2,3]
 y=[1,4,9]
 plt.plot(x,y)
 plt.show()
+
+#quant finance test 
+
+def stddev(smean, sstd):
+    low = smean - sstd
+    high = smean + sstd
+    print ("on the low end ")
+    print (low)
+    print ("on the high end ")
+    print (high)
+
+aa = [200,202.5, 201.88, 203.10]
+aaa = np.mean(aa)
+bbb = np.std(aa)
+stddev (aaa, bbb)
+
+#end quant finance test 
