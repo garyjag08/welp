@@ -82,6 +82,17 @@ var patron = new user ('adsf@gmail.com', 'Gary');
 
 		<button onclick="myFunction(); myFunctionz()">Try it</button>
 
+// array sum
+<script>
+var numbers = [65, 44, 12, 4];
+
+function getSum(total, num) {
+  return total + num;
+}
+function myFunction(item) {
+  document.write  (numbers.reduce(getSum));
+}
+</script>
 </body>
 </html>
 
