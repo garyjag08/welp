@@ -19,3 +19,14 @@ $size = sizeof($a);
 $asum= array_sum($a);
 echo $asum/$size; //will output the average
 
+// stock analyzer 
+function createURL($ticker){
+    $currentMonth = date("n");
+    $currentMonth = $currentMonth - 1;
+    
+    $currentDay = date("j");
+    $currentYear = date("Y");
+    return "/type url ";
+    
+    
+} 
