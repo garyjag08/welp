@@ -22,7 +22,7 @@ int mult (int a, intb){
 int main{
 (cin both a and b) and then, int result = mult(a,b);  (result=mult is what calls out the class mult)
 
-// arrays below 
+// arrays below
 char greeting[] = {'F', 'B', ' ', 'G', 'S', '\0'};
 cout << "Securities in Portfolio: ";
 cout << greeting << endl;
