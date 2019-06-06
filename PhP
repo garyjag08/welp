@@ -1,0 +1,6 @@
+//checks if something is in array
+$infoarray = array("Volvo", "BMW", "Toyota", "fruits", "stocks", "bonds", "mutual funds");
+$iaa ="soda";
+if(in_array($iaa, $infoarray)){
+echo "What you typed in, ". $iaa. " is in our data so far";}
+else {echo "Sorry we have no information on this item <br>";}
