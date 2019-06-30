@@ -79,14 +79,15 @@ print(data_file[4:5])
 def calc(mAvg,pBelow):
     return ( ((mAvg-pBelow)/mAvg)*100)
     
-mAvg = [400,200,150,175, 10000]
-pBelow = [150, 100,75,80, 5000]
+mAvg = [400,200,150,175]
+pBelow = [150, 100,75,80]
 
 aa = list(map(calc,mAvg,pBelow))
 print (aa)
 //end map
 
 //filter
+mAvg = [400,200,150,175, 10000]
 average = np.mean(mAvg)
 average2 = list(filter(lambda n: n>average, mAvg))
 print ("Average is  \n")
