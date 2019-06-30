@@ -92,6 +92,10 @@ function getSum(total, num) {
 function myFunction(item) {
   document.write  (numbers.reduce(getSum));
 }
+
+// map filter and reduce
+
+//map filter and reduce 
 </script>
 </body>
 </html>
