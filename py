@@ -74,3 +74,24 @@ data_file = pd.read_csv('file_name')
 print(data_file[4:5])
 
 #end quant finance test 
+#map filter and reduce below 
+// map 
+def calc(mAvg,pBelow):
+    return ( ((mAvg-pBelow)/mAvg)*100)
+    
+mAvg = [400,200,150,175, 10000]
+pBelow = [150, 100,75,80, 5000]
+
+aa = list(map(calc,mAvg,pBelow))
+print (aa)
+//end map
+
+//filter
+average = np.mean(mAvg)
+average2 = list(filter(lambda n: n>average, mAvg))
+print ("Average is  \n")
+print (average)
+print (average2)
+//end filter 
+
+#end map filter and reduce
