@@ -36,3 +36,24 @@ function familyName($fname, $year) {
 familyName("Hege", "1975");
 familyName("Stale", "1978");
 familyName("Kai Jim", "1983");
+
+class User {
+	private $name;
+	private $email;
+	private $age;
+	
+	public function ___construct() {
+		$this->name = $name;
+		$this->email = $email;
+		$this->age = $age;
+		$this->money = $money;		
+	} // end contruct
+	
+	public funtion login() {
+		echo $this->name.  " has logged in \n";  
+	} // end login function 
+	
+	public function info() {
+			echo $this->name. " is their first name \n";
+	} // end info function
+} // end User class
