@@ -1,0 +1,21 @@
+            <div ng-app="myApp" ng-controller="myCtrlDiv" style="background-color: #69f; color: white;"> 
+
+                    <p>$http service below:</p>
+
+                    <h4>{{myWelcome}}</h4> <!-- area to display from scope -->
+
+                    <p>End the $http service </p>
+                    </div>
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrlDiv', function($scope, $http) {
+  $http.get("welcome.html")
+  .then(function(response) {
+      $scope.myWelcome = response.data; //myWelcome in h4 above 
+  });
+});
+
+
+
+</script>
+// end code to view content from different page                    
