@@ -26,4 +26,4 @@ int main{
 char greeting[] = {'F', 'B', ' ', 'G', 'S', '\0'};
 cout << "Securities in Portfolio: ";
 cout << greeting << endl;
-// will print out, Securities in Portfolio: FB GS // end
+// will print out, Securities in Portfolio: FB GS // end 
