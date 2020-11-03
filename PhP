@@ -1,3 +1,7 @@
+// how to get node value from othe divs
+$doc = new Domdocument;
+$html = "";
+
 //checks if something is in array
 $infoarray = array("Volvo", "BMW", "Toyota", "fruits", "stocks", "bonds", "mutual funds");
 $iaa ="soda";
