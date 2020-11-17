@@ -1,6 +1,13 @@
-// how to get node value from othe divs
-$doc = new Domdocument;
-$html = "";
+// how to get node value from divs
+$dom = new domDocument; 
+$html = "item.html"; // the name of the html file to get information from   
+$dom->loadHTML(file_get_contents ($html));    
+$div = $dom->getElementsByTagName('div');     
+$id = $dom->getElementById("h1")->nodeValue;
+echo $id;
+
+
+
 
 //checks if something is in array
 $infoarray = array("Volvo", "BMW", "Toyota", "fruits", "stocks", "bonds", "mutual funds");
