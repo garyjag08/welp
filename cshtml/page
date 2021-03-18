@@ -1,0 +1,14 @@
+--- for .cshtml extensions --- 
+
+@{
+// write variables and code here
+
+//post
+if(IsPost) {
+
+  }
+}
+
+@function{
+//write functions here
+}
